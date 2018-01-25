@@ -1,0 +1,111 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/**
+ * HTML5 display-role reset for older browsers
+ */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 微软雅黑, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+em, strong {
+  font-style: normal;
+  font-weight: 400;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+table, td, input {
+  font-size: 12px;
+}
+
+input, textarea, select {
+  outline: 0;
+  vertical-align: middle;
+  font-family: inherit;
+  resize: none;
+}
+
+a {
+  outline-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/*placeholder样式  */
+input[placeholder], [placeholder], *[placeholder] {
+  font-family: 微软雅黑, serif;
+  color: #999
+}
+
+/* 清除浮动 */
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: block;
+}
+
+.clear-fix {
+  zoom: 1;
+}
+
+/* 文字超过一定长度省略掉 */
+.text-overflow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 去除Chrome input焦点框框  */
+input {
+  outline: none
+}
+
+
+
+
+
+
